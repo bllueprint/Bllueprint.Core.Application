@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Bllueprint.Core.Application</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Nubaum</Authors>
+    <Description>A nice nuget package for DDD (Application)</Description>
+    <PackageTags>DDD domain-driven-design clean-architecture domain core csharp dotnet bllueprint</PackageTags>
+    <RepositoryUrl>https://github.com/bllueprint/Bllueprint.Core.Application</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Bllueprint.Core.Domain" />
+    <PackageReference Include="MediatR" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Bllueprint.Core.Application.Tests" />
+  </ItemGroup>
+</Project>

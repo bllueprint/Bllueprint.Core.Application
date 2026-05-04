@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <PackageId>Bllueprint.Core.Application</PackageId>
-        <Version>1.0.0</Version>
+        <Version>10.0.1</Version>
         <Authors>Nubaum</Authors>
         <Description>A nice nuget package for DDD (Application)</Description>
         <PackageTags>DDD domain-driven-design clean-architecture domain core csharp dotnet bllueprint</PackageTags>
